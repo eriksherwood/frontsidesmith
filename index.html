@@ -1,17 +1,21 @@
 <!doctype html>
-<html class="no-js" lang="eng">
+<html class="no-js" lang="">
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Frontside Smith - design and development</title>
+        <title>Frontside Smith</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <!-- Place favicon.ico and apple-touch-icon(s) in the root directory -->
-
-        <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/main.css">
-        <script src="js/vendor/modernizr-2.8.0.min.js"></script>
+        
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/main.css">
+		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+		<link rel="stylesheet" href="fs.css">
+       
+       	<script src="js/vendor/modernizr-2.8.0.min.js"></script>
     </head>
     <body>
         <!--[if lt IE 8]>
@@ -19,27 +23,96 @@
         <![endif]-->
 
         <!-- Add your site or application content here -->
-        <header>
-        	<img src="images/logo.jpg" alt="Frontside Smith Logo" width=50>
-        	<hgroup>
-       			 <h1>Frontside Smith</h1>
-        		 <h2>Design &amp; Development</h2>
-        	</hgroup>
-        </header>
-        <section>
-        	<h3>Navigation</h3>
-        	<nav>
-        		<ul>
-        			<li><a href="index.html">HOME</a></li>
-        			<li><a href="about.html">ABOUT</a></li>
-        			<li><a href="gallery.html">GALLERY</a></li>
-        			<li><a href="contact.html">CONTACT</a></li>
-        		</ul>
-        	</nav>
-        </section>
-        <footer>
-        	<p>&copy; Copyright 2014 Frontside Smith</p>
-        </footer>
+        <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+  			<div class="container-fluid">
+  					<div class="navbar-header">
+         				<a class="navbar-brand" href="#">frontside smith</a>	
+        			</div>
+        		<div class="nav">
+        			<div class="container">
+        				<ul class="pull-right">
+        					<ul class="nav nav-pills">
+			        			<li class="active"><a href="index.html">Home</a></li>
+			        			<li><a href="us.html">Us</a></li>
+			        			<li><a href="work.html">Work</a></li>
+			        			<li><a href="contact.html">Contact</a></li>
+	        				</ul>
+        				</ul>
+        			</div>
+        		</div>
+       		</div>
+       </nav>
+        <div class="jumbotron">
+        	<div class="container">
+        		<h1>frontside smith design studio</h1>
+        			<p>design / build </p>
+        	</div>
+        </div>
+        <div class="row">
+        	<div class= "col-xs-12">
+        		<h2>Things we design</h2>
+        	</div>
+        </div>
+        <div class="container">
+        		<div class="row" "project-thumbnails">
+        				<div class="col-xs-3">
+        					<div class="thumbnail">
+        						<img src="http://manualmagazine.com/files/2010/02/bright2.jpg">
+        					</div>
+        				</div>
+        				<div class="col-xs-3">
+        					<div class="thumbnail">
+        						<img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQImSiWPvYzQfsFQaITjmu6arTWk75xIrrUw696d_f_jOIIZ4is">
+        					</div>
+        				</div>
+        				<div class="col-xs-3">
+        					<div class="thumbnail">
+        						<img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcT2WfDdRiwGZyAdpKCpEpCwFzfAnU0HAbFqz24Q0HW4j3P9Ikcu">
+        					</div>
+        				</div>
+        				<div class="col-xs-3">
+        					<div class="thumbnail">
+        						<img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcS08Jm6hgf7nEIfLBBOBcbuptjimCo1ARpbKtCfmGCBcvH8vaqy">
+        					</div>
+        				</div>
+        		</div>
+        		<div class="row" "caption">
+        			<div class="col-xs-3">
+        				<h3>
+        					Web Design
+        				</h3>
+        					<p>Creative website solutions </p>
+        			</div>
+        			<div class="col-xs-3">
+        				<h3>
+        					Web Design
+        				</h3>
+        					<p>Creative website solutions </p>
+        			</div>
+        			<div class="col-xs-3">
+        				<h3>
+        					Web Design
+        				</h3>
+        					<p>Creative website solutions </p>
+        			</div>
+        			<div class="col-xs-3">
+        				<h3>
+        					Web Design
+        				</h3>
+        					<p>Creative website solutions </p>
+        			</div>
+        			
+        		</div>
+        </div>
+        <div class="footer">
+        	<div class="container-fluid">
+        		<div class="row">
+        			<div class="col-xs-12">
+        				<p class="text-center">&copy; frontside smith 2014</p>
+        			</div>
+        		</div>
+        	</div>
+        </div>
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.1.min.js"><\/script>')</script>
@@ -53,7 +126,7 @@
             e=o.createElement(i);r=o.getElementsByTagName(i)[0];
             e.src='//www.google-analytics.com/analytics.js';
             r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-            ga('create','UA-XXXXX-X');ga('send','pageview');
+            ga('create','UA-XXXXX-X','auto');ga('send','pageview');
         </script>
     </body>
 </html>

@@ -1,0 +1,47 @@
+body { 
+	margin: 40px;
+}
+.nav .container {
+	padding-top: 10px;
+}
+.nav a {
+	padding: 20px 10px;
+	font-size: 11px;
+	font-weight: bold;
+	color: #5a5a5a;
+	text-transform: uppercase;
+}
+.nav li {
+	display: inline;
+}
+
+.jumbotron {
+	background-color: #666666;
+	background-image: url('#');
+	height: 500px;
+}
+.jumbotron .container {
+	position: relative;
+	top: 100px;
+}
+.jumbotron h1 {
+	color: #B3D4FC;
+}
+.jumbotron p {
+	color: #B3D4FC;
+	text-transform: uppercase;
+	font-weight; bold;
+}
+.row h2{
+	text-transform: uppercase;
+	padding-left: 30px;
+}
+.portfolio {
+	margin-top: 60px;
+}
+.about-us {
+	margin-top: 60px;
+}
+.contact-form{
+	margin-top: 60px;
+}
