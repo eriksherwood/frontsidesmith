@@ -84,3 +84,13 @@ body {
 	color: #d1dcd6;
 	padding: 5%;
 }
+
+#General-info {
+	background-color:white;
+	color:#5A5A5A;
+	padding:5%;
+}
+
+#General-info 	h1 {
+		color:#B47335;
+	}
