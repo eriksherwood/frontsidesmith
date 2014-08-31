@@ -10,7 +10,7 @@ body {
 }
 
 .navbar-header .navbar-brand{
-	color:white;
+	color:whitehttp://127.0.0.1:8020/frontsidesmith/contact.html;
 }
 
 .navbar-brand {
@@ -28,9 +28,21 @@ body {
 	color: white;
 	text-transform: uppercase;
 }
+
+.nav .nav-pills a:hover{
+	background-color:#B47335;
+	color: white;
+}
+
+.nav .nav-pills li a:active {
+	background-color:white;
+	color:#B47335;
+}
+
 .nav li {
 	display: inline;
 }
+.nav-pills
 
 .jumbotron {
 	background-color: #666666;
@@ -80,9 +92,13 @@ body {
 }
 
 #info {
-	background-color:#b47335;
-	color: #d1dcd6;
+	background-color:white;
+	color: #5A5A5A;
 	padding: 5%;
+}
+
+#info h3 {
+	color: #B47335;
 }
 
 #General-info {
@@ -93,4 +109,23 @@ body {
 
 #General-info 	h1 {
 		color:#B47335;
-	}
+}
+
+#contact {
+	background-color:white;
+	color:#5A5A5A;
+}
+
+#contact h1 {
+	color:#B47335;
+}
+
+#contact h2 {
+	color:#B47335;
+	text-align: left;
+	text-transform:none;
+}
+
+#contact .col-sm-6 {
+	padding:5%;
+}

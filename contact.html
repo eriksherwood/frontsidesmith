@@ -13,7 +13,7 @@
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-		<link rel="stylesheet" href="fs.css">
+		<link rel="stylesheet" href="css/fs.css">
 		
         <script src="js/vendor/modernizr-2.8.0.min.js"></script>
     </head>
@@ -23,30 +23,60 @@
         <![endif]-->
 
         <!-- Add your site or application content here -->
-        <div class="container-fluid">
-         	<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-  			
+  			<div class="container-fluid" style="background-color:#5a5a5a; margin: 0px;">
   					<div class="navbar-header">
-         				<a class="navbar-brand" href="#">frontside smith</a>	
+         				<a class="navbar-brand" href="#">Frontside Smith</a>	
         			</div>
         		<div class="nav">
-        			<div class="container">
-        				<ul class="pull-right">
-        					<ul class="nav nav-pills">
-			        			<li><a href="index.html">Home</a></li>
-			        			<li><a href="us.html">Us</a></li>
-			        			<li><a href="work.html">Work</a></li>
-			        			<li class="active"><a href="contact.html">Contact</a></li>
-	        				</ul>
+    				<ul class="pull-right">
+    					<ul class="nav nav-pills">
+		        			<li><a href="index.html">Home</a></li>
+		        			<li><a href="us.html">Us</a></li>
+		        			<li><a href="work.html">Work</a></li>
+		        			<li class="active"><a href="contact.html">Contact</a></li>
         				</ul>
-        			 </div>
-        		 </div>
-        	</nav>
-       	</div>
-        
-   <div class="contact-form">
-   		<div class="container">
-   	<p>contact.</p>
+    				</ul>
+        		</div>
+       		</div>
+       </nav>
+<section id="contact">  
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-6 col-sm-offset-3 text-center">
+				<h1>Contact Us</h1>
+				<p>Please leave your name, email, and a brief description of what you would like designed, in the form below. Thank you!</p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-6 col-sm-offset-3">
+				<form>
+				  <div class="form-group">
+				    <label for="contactFirstName">First Name</label>
+				    <input type="text" class="form-control"  placeholder="John">
+				  </div>
+				  <div class="form-group">
+				    <label for="contactLastName">Last Name</label>
+				    <input type="text" class="form-control"  placeholder="Smith">
+				  </div>
+				  <div class="form-group">
+				    <label for="exampleInputEmail1">Email address</label>
+				    <input type="email" class="form-control" placeholder="Enter email">
+				  </div>
+				  <div class="form-group">
+				  	<label for="contactMessage">Your Message</label>	
+				  	<textarea class="form-control" rows="4"></textarea>
+				  </div>
+				  <div class="checkbox">
+				    <label>
+				      <input type="checkbox"> I am interested in a newsletter to learn about new products and services that Frontside Smith is offering.
+				    </label>
+				  </div>
+				  <button type="submit" class="btn btn-default">Submit</button>
+				</form>
+			</div>
+		</div>
+	</div>
+</section>
         <div class="footer">
         	<div class="container-fluid">
         		<div class="row">
@@ -56,8 +86,7 @@
         		</div>
         	</div>
         </div>
-       </div>
-	</div>
+
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.1.min.js"><\/script>')</script>
