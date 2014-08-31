@@ -18,12 +18,10 @@ body {
 
 .jumbotron {
 	background-color: #666666;
-	background-image: url('../images/test.png');
-	height: 500px;
+	background-image: url('imag/test.png');
+	height: 700px;
 	margin-left:0px;
 	margin-right:0px;
-	padding-left:0px;
-	padding-right:0px;
 }
 .jumbotron .container {
 	position: relative;
