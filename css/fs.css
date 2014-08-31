@@ -10,7 +10,7 @@ body {
 }
 
 .navbar-header .navbar-brand{
-	color:whitehttp://127.0.0.1:8020/frontsidesmith/contact.html;
+	color:white;
 }
 
 .navbar-brand {
@@ -21,6 +21,7 @@ body {
 .nav .container {
 	padding-top: 10px;
 }
+
 .nav a {
 	padding: 20px 10px;
 	font-size: 11px;
@@ -42,7 +43,7 @@ body {
 .nav li {
 	display: inline;
 }
-.nav-pills
+
 
 .jumbotron {
 	background-color: #666666;
