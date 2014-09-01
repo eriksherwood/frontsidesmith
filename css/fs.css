@@ -48,7 +48,7 @@ body {
 .jumbotron {
 	background-color: #666666;
 	background-image: url('imag/test.png');
-	height: 600px;
+	height: auto;
 	padding:0px;
 	margin-top:0px;
 	margin-bottom:0px;
