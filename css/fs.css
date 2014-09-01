@@ -1,37 +1,74 @@
 body { 
-	margin: 40px;
+	@grid-gutter-width: 0px;
+	background-color:#5A5A5A;
+	color:white;
 }
+.nav {
+	margin-bottom: 0px;
+	color:#D1DCD6;
+	padding:.5%;
+}
+
+.navbar-header .navbar-brand{
+	color:white;
+}
+
+.navbar-brand {
+	color:white;
+	font-size:20px;
+}
+
 .nav .container {
 	padding-top: 10px;
 }
+
 .nav a {
 	padding: 20px 10px;
 	font-size: 11px;
 	font-weight: bold;
-	color: #5a5a5a;
+	color: white;
 	text-transform: uppercase;
 }
+
+.nav .nav-pills a:hover{
+	background-color:#B47335;
+	color: white;
+}
+
+.nav .nav-pills li a:active {
+	background-color:white;
+	color:#B47335;
+}
+
 .nav li {
 	display: inline;
 }
 
+
 .jumbotron {
 	background-color: #666666;
-	background-image: url('#');
-	height: 500px;
+	background-image: url('imag/test.png');
+	height: auto;
+	padding:0px;
+	margin-top:0px;
+	margin-bottom:0px;
 }
+
 .jumbotron .container {
 	position: relative;
-	top: 100px;
+	
 }
 .jumbotron h1 {
-	color: #B3D4FC;
+	color: #D1DCD6;
+	text-transform: uppercase;
 }
 .jumbotron p {
-	color: #B3D4FC;
+	color: #D1DCD6;
 	text-transform: uppercase;
 	font-weight; bold;
 }
+
+
 .row h2{
 	text-transform: uppercase;
 	padding-left: 30px;
@@ -44,4 +81,52 @@ body {
 }
 .contact-form{
 	margin-top: 60px;
+}
+
+.no-gutter {
+	@grid-gutter-width: 0px;
+}
+
+.col-hover:hover {
+	background-color:blue;
+	color:white;
+}
+
+#info {
+	background-color:white;
+	color: #5A5A5A;
+	padding: 5%;
+}
+
+#info h3 {
+	color: #B47335;
+}
+
+#General-info {
+	background-color:white;
+	color:#5A5A5A;
+	padding:5%;
+}
+
+#General-info 	h1 {
+		color:#B47335;
+}
+
+#contact {
+	background-color:white;
+	color:#5A5A5A;
+}
+
+#contact h1 {
+	color:#B47335;
+}
+
+#contact h2 {
+	color:#B47335;
+	text-align: left;
+	text-transform:none;
+}
+
+#contact .col-sm-6 {
+	padding:5%;
 }
